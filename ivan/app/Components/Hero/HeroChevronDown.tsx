@@ -12,7 +12,7 @@ const HeroChevronDown = () => {
       transition={{ repeat: Infinity, duration: 2 }}
       className="absolute bottom-6 left-1/2 -translate-x-1/2 text-white text-xl"
     >
-      <Link href={"/"}>
+      <Link href={"/#services"}>
         <FiChevronsDown className="text-[30px]"/>
       </Link>
     </motion.div>

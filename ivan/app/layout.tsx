@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${jost.variable} antialiased`}
+        className={`${jost.className} font-[var(--font-jost)] antialiased`}
       >
         {children}
       </body>

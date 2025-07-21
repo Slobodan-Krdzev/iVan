@@ -8,7 +8,8 @@ const HeroSection = () => {
     <div className="relative h-[100dvh] w-full overflow-hidden">
       <video
         className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
-        src="/hero.mov" 
+        src="/hero.mp4"
+        
         autoPlay
         muted
         loop
@@ -18,7 +19,7 @@ const HeroSection = () => {
 
       <Navbar />
       <HeroContent />
-     <HeroChevronDown />
+      <HeroChevronDown />
     </div>
   );
 };

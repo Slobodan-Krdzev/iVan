@@ -16,11 +16,11 @@ const Navbar = () => {
     <motion.nav
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6 }}
+        transition={{ duration: 0.6, delay: 2.4 }}
         className="fixed lg:top-[3%] lg:rounded-2xl left-1/2 transform -translate-x-1/2 w-full lg:w-[85%] m-auto z-20 px-6 py-3 flex justify-between items-center backdrop-blur-sm bg-white/20 text-white"
       >
         <div className="flex items-center gap-2">
-          <div className='bg-white p-2 rounded-xl'>
+          <div className='bg-white px-2 py-1 rounded-xl'>
           <Image src={'/logoLight.png'} alt='Logo' width={40} height={100}/>
 
           </div>

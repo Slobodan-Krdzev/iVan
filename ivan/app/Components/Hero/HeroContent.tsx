@@ -14,7 +14,7 @@ const HeroContent = () => {
             key={i}
             initial={{ y: 30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: i * 0.3, duration: 0.6 }}
+            transition={{ delay: 2, duration: 0.6 }}
           >
             {word}
           </motion.div>
@@ -25,7 +25,7 @@ const HeroContent = () => {
         className="mt-6 max-w-xl text-white text-base md:text-lg lg:text-[1.1vw] tracking-tighter leading-[130%]"
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: title.length * 0.3, duration: 0.6 }}
+        transition={{ delay: 2.3, duration: 0.6 }}
       >
         Serving businesses, institutions, and high-end properties with fully
         integrated surveillance, access control, and infrastructure systems
@@ -34,7 +34,7 @@ const HeroContent = () => {
       <motion.div
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: title.length * 0.5, duration: 0.6 }}
+        transition={{ delay: 2.4, duration: 0.6 }}
         className="mt-[5vh] lg:mt-[4vh]"
       >
         <MainLink

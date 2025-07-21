@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+*{
+  scroll-behavior: smooth;
+}
+
+body{
+  scroll-behavior: smooth;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,3 +25,20 @@
   --dark-text: var(--darktext);
 }
 
+.swiper-slide {
+  transition: all 0.4s ease;
+  transform: scale(0.9);
+  opacity: 0.6;
+}
+
+.swiper-slide-active {
+  transform: scale(1.15) !important;
+  opacity: 1 !important;
+  z-index: 10;
+  border: 2px solid rgba(255, 255, 255, 0.815) !important;
+  border-radius: 27px;
+    /* box-shadow: 0 0 2px 1px #f0f0f04c,
+              0 0 5px 1px #e4e4e386,
+              0 0 6px 5px #bababa9d,
+              0 0 7.5px 12px #dbd6d95f; */
+}
